@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://employee-management-backend-2djx.onrender.com/api/employees";
+const API_URL = "http://localhost:8080/api/employees";
 
 export const getAllEmployees = () => axios.get(API_URL);
 
